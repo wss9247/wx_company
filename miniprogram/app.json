@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/courses/courses",
-    "pages/abouts/abouts"
+    "pages/abouts/abouts",
+    "pages/cancat/cancat"
   ],
   "tabBar": {
     "list": [

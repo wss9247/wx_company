@@ -6,6 +6,9 @@
   </swiper-item>
 </swiper>
 <!-- 导航 -->
-<functional-page-navigator name="loginAndGetUserInfo" bind:success="loginSuccess">
-  <button>登录到插件</button>
-</functional-page-navigator>
+<view class="btn-area">
+  <view data-url="{{item.url}}" wx:for="{{urls}}" wx:key="index" bindtap="jumpTo">{{item.name}}</view>
+  
+ 
+  
+</view>
