@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/courses/courses",
+    "pages/abouts/abouts"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/courses/courses",
+        "text": "课程介绍",
+        "iconPath": "images/courses.png",
+        "selectedIconPath": "images/courses-selected.png"
+      },
+      {
+        "pagePath": "pages/abouts/abouts",
+        "text": "联系我们",
+        "iconPath": "images/abouts.png",
+        "selectedIconPath": "images/abouts-selected.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

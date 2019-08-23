@@ -1,0 +1,11 @@
+<!-- 首页 -->
+<!-- 轮播图 -->
+<swiper class="slide" autoplay="ture" indicator-dots="true" circular="true" indicator-color="#f00">
+  <swiper-item wx:for="{{images}}" wx:key="index">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+<!-- 导航 -->
+<functional-page-navigator name="loginAndGetUserInfo" bind:success="loginSuccess">
+  <button>登录到插件</button>
+</functional-page-navigator>

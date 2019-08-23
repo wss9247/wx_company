@@ -1,0 +1,8 @@
+/* pages/index/index.wxss */
+.slide{
+  height:400rpx;
+}
+image{
+  width:100%;
+  height:400rpx;
+}
