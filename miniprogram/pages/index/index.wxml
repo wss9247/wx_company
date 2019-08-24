@@ -6,9 +6,18 @@
   </swiper-item>
 </swiper>
 <!-- 导航 -->
-<view class="btn-area">
-  <view data-url="{{item.url}}" wx:for="{{urls}}" wx:key="index" bindtap="jumpTo">{{item.name}}</view>
-  
- 
-  
+<view class="menu-area">
+  <view class="menu-item" wx:for="{{urls}}" wx:key="{{index}}">
+    <image bindtap="jumpToNew" data-url="{{item.url}}" src="{{item.src}}"></image>
+    <text bindtap="jumpToNew" data-url="{{item.url}}">{{item.name}}</text>
+  </view>
+</view>
+<!-- 热讯 -->
+<view class="notices">
+  <image src="../../images/notice.png"></image>
+  <swiper autoplay="ture" circular="true" >
+    <swiper-item wx:for="{{notices}}" wx:key="index">
+      {{index+1}}.{{item}}
+    </swiper-item>
+  </swiper>
 </view>

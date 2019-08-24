@@ -1,11 +1,67 @@
-/* pages/index/index.wxss */
+/* 轮播 */
 .slide{
-  height:400rpx;
+  width:100%;height:400rpx;
+  box-shadow:  1px 1px 6px #ddd; 
 }
-image{
+.slide image{
   width:100%;
   height:400rpx;
 }
-.navigator-hover {
-  color:blue;
+/* 导航菜单 */
+.menu-area{
+  background:#fff;
+  padding-top:36rpx;
+  margin-top:20rpx;
+ box-shadow:  1px 1px 6px #ddd; 
+}
+.menu-area .menu-item{
+  display:inline-block;
+  width:25%;
+  margin-bottom:36rpx;
+  box-sizing: border-box;
+}
+.menu-area .menu-item image{
+  display:block;
+  width:100rpx;
+  height:100rpx;
+  margin:0 auto 16rpx;
+  border-radius: 50%;
+}
+.menu-area .menu-item view{
+  width:120rpx;
+  height:120rpx;
+  background-size: contain;
+}
+.menu-area .menu-item text{
+  display:block;
+  width:160rpx;
+  height:40rpx;
+  text-align:center;
+  margin:0 auto;font-size:28rpx;
+}
+/* 热讯-滚动效果 */
+.notices{
+  display:flex;
+  height:66rpx;
+  margin-top:20rpx;
+  background:#f7d11e;
+  box-shadow:1px 1px 6px #ddd; 
+}
+.notices image{
+  display:inline-block;
+  width:46rpx;height:46rpx;
+  padding:11rpx 20rpx;
+  background: #fff;
+}
+.notices swiper{
+  display:inline-block;
+  width:100%;
+  height:66rpx;
+  margin:0 20rpx;
+}
+.notices swiper-item{
+  white-space:nowrap;
+  height:66rpx;
+  width:100%;
+  line-height:66rpx;
 }
