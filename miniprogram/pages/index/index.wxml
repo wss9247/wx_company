@@ -21,3 +21,32 @@
     </swiper-item>
   </swiper>
 </view>
+<!-- 示范案例-专业共建 -->
+<view class="exCases">
+  <view class="title">示范案例，实践教学</view>
+  <view class="list">
+    <image src="http://pbu-public.oss-cn-beijing.aliyuncs.com/upload/picture/20180719/93598104dee646b755ea4eac1d3f7193.jpg"></image>
+    <view class="info">
+      <view class="name">武汉市财贸学院</view>
+      <view class="principal">项目负责人：张晓林、林寸</view>
+      <view class="content">武汉市财经学校跨专业综合实训基地</view>
+    </view>
+  </view>
+  <view class="list">
+    <image src="http://pbu-public.oss-cn-beijing.aliyuncs.com/upload/picture/20180719/93598104dee646b755ea4eac1d3f7193.jpg"></image>
+    <view class="info">
+      <view class="name">武汉市财贸学院</view>
+      <view class="principal">项目负责人：张晓林、林寸</view>
+      <view class="content">武汉市财经学校跨专业综合实训基地</view>
+    </view>
+  </view>  
+</view>
+<!-- 产品展示 -->
+<view class="products">
+  <view class="title">产教融合，专业共建</view>
+  <view class="pros">
+    <view class="pro_item">
+      
+    </view>
+  </view>
+</view>

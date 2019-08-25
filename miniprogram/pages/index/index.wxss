@@ -12,7 +12,7 @@
   background:#fff;
   padding-top:36rpx;
   margin-top:20rpx;
- box-shadow:  1px 1px 6px #ddd; 
+  box-shadow:  1px 1px 6px #ddd; 
 }
 .menu-area .menu-item{
   display:inline-block;
@@ -46,6 +46,7 @@
   margin-top:20rpx;
   background:#f7d11e;
   box-shadow:1px 1px 6px #ddd; 
+  border-right:4rpx solid #fff;
 }
 .notices image{
   display:inline-block;
@@ -64,4 +65,53 @@
   height:66rpx;
   width:100%;
   line-height:66rpx;
+}
+/* 案例 */
+.exCases{
+  width:100%;
+  box-shadow:1px 1px 6px #ddd; 
+  background: #fff;
+  margin-top:20rpx;
+}
+.title{
+  height:66rpx;
+  width:100%;
+  padding-left:12rpx;
+  line-height:66rpx;
+  border-left:12rpx solid #f7d11e;
+  border-bottom:2rpx solid #f7d11e;
+}
+.exCases .list{
+  margin:20rpx;
+  padding-bottom:20rpx;
+  height:180rpx;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  border-bottom:1px dashed #ddd;
+}
+.exCases .list:last-child{
+  padding-bottom:0;
+  border-bottom:none;
+}
+.exCases image{
+  width:180rpx;height:180rpx;
+  border-radius:4px;
+}
+.exCases .info{
+  display:inline-block;
+  width:520rpx;
+  margin-left:20rpx;
+  line-height:48rpx;
+  color:#666;
+}
+.exCases .info .name{
+  font-weight: bold;color:#000;
+}
+/* 产品展示 */
+.products{
+  box-shadow:1px 1px 6px #ddd; 
+}
+.products .pros{
+
 }
