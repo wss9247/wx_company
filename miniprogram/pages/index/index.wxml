@@ -21,6 +21,20 @@
     </swiper-item>
   </swiper>
 </view>
+<!-- 产品展示 -->
+<view class="products">
+  <view class="title">产教融合，专业共建</view>
+  <view class="pros">
+    <view class="pro_item" style="background-image: url('../../images/icon1.png')">
+      <view class="name">创新创业人才培养</view>
+      <view class="info">基于创业过程体系化设计创新创业课程,培养专业理论扎实、实战能力强的善创新、懂管理、能创业的复合应用型创新人才</view>
+    </view>
+    <view class="pro_item" style="background-image: url('../../images/icon2.png')">
+      <view class="name">数字营销人才培养</view>
+      <view class="info">新道营销专业建设方案完全基于OBE理念设计，以人才培养目标为导向进行设计。新道的营销专业共建体系，基于用友深耕数</view>     
+    </view>
+  </view>
+</view>
 <!-- 示范案例-专业共建 -->
 <view class="exCases">
   <view class="title">示范案例，实践教学</view>
@@ -40,13 +54,4 @@
       <view class="content">武汉市财经学校跨专业综合实训基地</view>
     </view>
   </view>  
-</view>
-<!-- 产品展示 -->
-<view class="products">
-  <view class="title">产教融合，专业共建</view>
-  <view class="pros">
-    <view class="pro_item">
-      
-    </view>
-  </view>
 </view>

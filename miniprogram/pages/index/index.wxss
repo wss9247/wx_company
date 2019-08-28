@@ -66,14 +66,16 @@
   width:100%;
   line-height:66rpx;
 }
-/* 案例 */
+/* 案例+产品 */
+.products,
 .exCases{
   width:100%;
   box-shadow:1px 1px 6px #ddd; 
   background: #fff;
   margin-top:20rpx;
 }
-.title{
+/* 模块标题 */
+.title{ 
   height:66rpx;
   width:100%;
   padding-left:12rpx;
@@ -96,7 +98,7 @@
 }
 .exCases image{
   width:180rpx;height:180rpx;
-  border-radius:4px;
+  border-radius:6px;
 }
 .exCases .info{
   display:inline-block;
@@ -113,5 +115,34 @@
   box-shadow:1px 1px 6px #ddd; 
 }
 .products .pros{
-
+  padding-bottom:40rpx;
+  overflow: hidden;
+}
+.products .pro_item{
+  width:50%;
+  float:left;
+  box-sizing: border-box;
+  background-position: 20rpx center;
+  background-repeat: no-repeat;
+  background-size: 100rpx;
+  padding-left:130rpx;
+  padding-right:10rpx;
+  margin-top:40rpx;
+}
+.products .pro_item image{
+  width:100rpx;height:100rpx;
+}
+.products .pro_item .name,
+.products .pro_item .info{
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.products .pro_item .info{
+  -webkit-line-clamp:2;
+  color:#999;
+  font-size:22rpx;
 }
