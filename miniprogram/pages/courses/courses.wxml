@@ -1,4 +1,5 @@
 <!--pages/courses/courses.wxml-->
-<text>pages/courses/courses.wxml</text>
-<view style="text-align:center"> {{title}} </view>
-<view> 点击左上角返回回到之前页面 </view>
+<!-- 关于我们 -->
+ <view class="abouts">
+  是用友集团的重要成员企业，践行“把企业搬进校园，打造职业梦想社区”。新道科技整合产业资源，搭建协同育人服务体系，通过校企合作共建产业学院，以实践教学、专业共建以及积极探索社会服务、混合所有制等形式进行校企合作、产教融合，培养新商科、新工科及新双创领域的交叉型、复合创新型人才，服务中国教育事业，支持中国产业升级
+</view> 

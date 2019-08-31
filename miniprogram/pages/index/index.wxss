@@ -22,8 +22,8 @@
 }
 .menu-area .menu-item image{
   display:block;
-  width:100rpx;
-  height:100rpx;
+  width:80rpx;
+  height:80rpx;
   margin:0 auto 16rpx;
   border-radius: 50%;
 }

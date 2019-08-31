@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/courses/courses",
+    "pages/index/index",
     "pages/abouts/abouts",
     "pages/cancat/cancat"
   ],
@@ -15,13 +15,13 @@
       },
       {
         "pagePath": "pages/courses/courses",
-        "text": "课程介绍",
+        "text": "产品介绍",
         "iconPath": "images/courses.png",
         "selectedIconPath": "images/courses-selected.png"
       },
       {
         "pagePath": "pages/abouts/abouts",
-        "text": "联系我们",
+        "text": "关于我们",
         "iconPath": "images/abouts.png",
         "selectedIconPath": "images/abouts-selected.png"
       }

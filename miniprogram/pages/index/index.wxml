@@ -21,6 +21,7 @@
     </swiper-item>
   </swiper>
 </view>
+
 <!-- 产品展示 -->
 <view class="products">
   <view class="title">产教融合，专业共建</view>
