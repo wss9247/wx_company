@@ -1,2 +1,3 @@
 <!--pages/abouts/abouts.wxml-->
 <text>pages/abouts/abouts.wxml</text>
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindtap="mapLocation"  show-location style="width: 100%; height:500rpx;"></map>

@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/abouts/abouts",
     "pages/courses/courses",
     "pages/index/index",
-    "pages/abouts/abouts",
     "pages/cancat/cancat"
   ],
   "tabBar": {
@@ -31,7 +31,7 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "企业微信平台",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
